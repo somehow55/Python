@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from pymongo import MongoClient
 
 
-client = MongoClient('mongodb+srv://sparta:1234@cluster0.8s2if.mongodb.net/Cluster0?retryWrites=true&w=majority')
+client = MongoClient('mongodb+srv://sparta:<pw>@cluster0.8s2if.mongodb.net/Cluster0?retryWrites=true&w=majority')
 db = client.dbhandey
 
 
